@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Заробляй Грошi</title>
+    <link rel="stylesheet" href="./accets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+</head>
+<body>
+
+<div class="wrapper">
+    <header class="header">
+        <div class="header__logo">
+            <span>Перемога</span>
+        </div>
+        <nav class="header__nav">
+            <ul>
+                <li><a href="">Главная</a></li>
+                <li><a href="">Помощь в развитии</a></li>
+                <li><a href="">Информация</a></li>
+                <li><a href="">Наш блог</a></li>
+            </ul>
+        </nav>
+        <div class="header__contacts">
+            <img src="./accets/img/logo-twitter.png" alt="Twitter">
+            <!-- <img src="./accets/img/logo-telegram.png" alt="Telegram"> -->
+            <img src="./accets/img/logo-vk.png" alt="Vk">
+        </div>
+    </header>
+    <div class="container">
+        <div class="container__box-1">
+            <button id="button1" type="button" class="btn btn-outline-primary">В команду</button><br>
+            <button id="button2"  type="button" class="btn btn-outline-primary">Стартапы, идеи.</button>
+            
+        </div>
+        <div class="container__box-2">
+            <div class="container__b2Top">
+                <h3>Раздел <<В команду>></h3>
+                <span>Хочешь попасть в команду? <br> - Легко тебе всего лишь надо пройти опрос. <br> Переходи по кнопке за информации</span>
+            </div>
+            <div class="container__b2Bottom">
+                <h3>Раздел <<Стартапы, идеи.>></h3>
+                <div>
+                    <span>Мы поддержим твою идею, <br> у нас есть сервера, интернет, разработчики <br> сообщи нам о своей идеи <br> Переходи по кнопке за информации </span>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="popup-command">
+    <div class="popup__bodyC">
+        <h1>Отлично!</h1>
+        <h3>Давайте узнаем о вас неккую ифнормацию</h3>
+        <img id="imgX1" src="./accets/img/close.bmp" alt="X">
+        <div class="popup__form">
+            <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Как вас зовут?</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Где вы работайте / работали</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Сколько вам лет?</label>
+                    <select id="disabledSelect" class="form-select">
+                        <option>16</option>
+                        <option>17</option>
+                        <option>18</option>
+                        <option>19</option>
+                        <option>20</option>
+                        <option>21</option>
+                        <option>21+</option>
+                      </select>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Чем вы будите полезны?</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+                <button type="submit" class="btn btn-primary">Отправить форму</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div id="popup-sendMessage" class="popup-sendMessage">
+    <div class="popup__bodyS">
+        <h1>Хорошо</h1>
+        <h3>Мы рады выслушить вашу идею.</h3>
+        <img id="imgX2"src="./accets/img/close.bmp" alt="X">
+
+        <div class="popup__form">
+            <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Как вас зовут?</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Оставьте своё предложения</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+                <button type="submit" class="btn btn-primary">Отправить форму</button>
+            </form>
+        </div>
+
+    </div>
+</div>
+
+
+<script src="./accets/js/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</body>
+</html>
